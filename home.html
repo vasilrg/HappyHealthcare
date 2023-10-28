@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Healthcare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="directions.html">Directions</a>
+        </nav>
+    </header>
+
+    <h1>Welcome to Happy Healthcare</h1>
+    <p> Proud leader healthcare provider since the '80s.</p>
+
+    <h2>Book an Appointment</h2>
+    <form action="/book_appointment" method="post">
+        <table>
+            <tr>
+                <td><label for="firstname">First Name:</label></td>
+                <td><input type="text" id="firstname" name="firstname" required></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name:</label></td>
+                <td><input type="text" id="lastname" name="lastname" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">First Line of Address:</label></td>
+                <td><input type="text" id="address" name="address" required></td>
+            </tr>
+            <tr>
+                <td><label for="postcode">Post Code:</label></td>
+                <td><input type="text" id="postcode" name="postcode" required></td>
+            </tr>
+            <tr>
+                <td><label for="nhsnumber">NHS Number:</label></td>
+                <td><input type="text" id="nhsnumber" name="nhsnumber" required></td>
+            </tr>
+            <tr>
+                <td><label for="nin">NIN:</label></td>
+                <td><input type="text" id="nin" name="nin" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Address:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="tel">Telephone Number:</label></td>
+                <td><input type="tel" id="tel" name="tel" required></td>
+            </tr>
+            <tr>
+                <td><label for="date">Appointment Date:</label></td>
+                <td><input type="date" id="date" name="date" required></td>
+            </tr>
+            <tr>
+                <td><label for="reason">Symptoms:</label></td>
+                <td><textarea id="reason" name="reason" rows="10" required></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><br>
+                    <button type="submit">Book</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

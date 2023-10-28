@@ -1,0 +1,81 @@
+/* Common styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f3f4f6;
+}
+
+header {
+    background-color: #007bff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Home page styles */
+.home form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.home label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.home input[type="text"], .home input[type="date"], .home button {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.home button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* About page styles */
+.about p {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #555;
+}
+
+/* Contact page styles */
+.contact p {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #555;
+}
+
+/* Directions page styles */
+.directions p {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #555;
+}
